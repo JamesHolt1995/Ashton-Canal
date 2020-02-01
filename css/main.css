@@ -305,6 +305,8 @@ h1 {
   left:60%;
   top:20%;
   max-width: 400px;
+  overflow: scroll;
+  max-height: 500px;
 }
 
 .img_1 {background-image: url(../img/1.jpg);}
