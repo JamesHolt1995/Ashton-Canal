@@ -272,8 +272,9 @@ p {
 h1 { 
   font-family: 'Poppins', sans-serif;
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 600;
   color: black;
+  margin: 0;
 }
 
 .modal {
@@ -291,6 +292,11 @@ h1 {
   top:0;
   left:0;
   background-size: cover;
+  background-position: center;
+}
+
+.wiggle {
+  width:50%;
 }
 
 .modal__content {
@@ -298,6 +304,7 @@ h1 {
   top:0;
   left:60%;
   top:20%;
+  max-width: 400px;
 }
 
 .img_1 {background-image: url(../img/1.jpg);}
