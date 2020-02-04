@@ -47,6 +47,10 @@
       $(".modal12").fadeIn();
     });
 
+    $("#13").click(function(){
+      $(".modal13").fadeIn();
+    });
+
     $(".cross").click(function(){
       $(".modal").fadeOut();
     });
